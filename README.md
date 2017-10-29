@@ -3,11 +3,14 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: Constraint propagation is a techinque of imposing local constraints to reduce the global search space. In the case of Naked Twins,
+we had the constraint of only two values can be assigned to the square boxes. By eliminating the two values from each of its peer,
+we reduced the number of possibilites of the board (9/9 square)
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: In order to solve Diagonal sudoku we introduced a new constraint to the unit list. So that every the board is solved,
+it will ensure that no diagonal elements have repeating elements.
 
 ### Install
 
